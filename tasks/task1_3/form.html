@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>task 1.2</title>
+</head>
+<body>
+    <form action="https://httpbin.io/dump/request" method="POST">
+        <label for="em">Enter your email:</label>
+        <input type="email" id="em" name="email">
+    <p>enter your date of birth</p>
+    <input type="date" name="date" id="date"/>
+    <p>select your favourite colour</p>
+    <input type="color" name="color" id="color"/>
+    <p>are you a member of staff or a student</p>
+    <ul style="list-style-type:none;">
+        <li>
+            <input type="radio" id="mos" name="personnel" value="mos"/>
+            <label for="mos">member of staff</label>
+        </li>
+        <li>
+            <input type="radio" id="student" name="personnel" value="student"/>
+            <label for="student">student</label>
+        </li>
+    </ul>
+    <button>submit</button>
+    </form>
+</body>
+</html>
